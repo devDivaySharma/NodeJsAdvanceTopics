@@ -13,6 +13,6 @@ console.log(`App is running on 8000`);
 
 // Example to handle Request
 function routerHandler(req,res){
-    fetch('https://portal.eschoolcampus.in/').then((res) => res.json());
+    res.send("index");
 }
 
