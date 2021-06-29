@@ -1,0 +1,32 @@
+{
+  "name": "NodeJsAdvanceTopics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js",
+    "ecma6" :"node ecma6.js",
+    "searching":"node searching.js",
+    "test": "nodemon searching.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devDivaySharma/NodeJsAdvanceTopics.git"
+  },
+  "keywords": [
+    "Node Js",
+    "Advance Topics"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devDivaySharma/NodeJsAdvanceTopics/issues"
+  },
+  "homepage": "https://github.com/devDivaySharma/NodeJsAdvanceTopics#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "node-router": "^0.1.6"
+  }
+}
